@@ -1,7 +1,7 @@
 {
     "name": "xpayapi-com/xpayapi",
     "description": "xpayapi.com PHP SCI/API Wrapper (Official)",
-    "homepage": "https://github.com/xpayapi/xpayapi.com/tree/main",
+    "homepage": "https://github.com/xpayapi/xpayapi.com//tree/v1.0",
     "type": "library",
     "license": "MIT",
     "keywords": [
