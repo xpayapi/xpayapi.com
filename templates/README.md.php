@@ -11,12 +11,12 @@ A xPayapi.com account with **Merchant ID, Merchant Password, API ID, API Passwor
 
 ## Installation
 
-Package available on [Composer](https://packagist.org/packages/xpayapi/xpayapi_com).
+Package available on [Composer](https://packagist.org/packages/xpayapi-com/xpayapi).
 
 If you're using Composer to manage dependencies, you can use
 
 ```bash
-$ composer require xpayapi/xpayapi_com
+$ composer require xpayapi-com/xpayapi
 ```
 
 ## Test examples with Docker
@@ -26,8 +26,8 @@ To quickly run examples you need to install Docker, git and make utility.
 **Step 1:**
 
 ```bash
-$ git clone https://github.com/xpayapi/xpayapi.com.git
-$ cd xpayapi-com/
+$ git clone https://github.com/xpayapi-com/xpayapi.git
+$ cd xpayapi/
 ```
 
 **Step 2:**
