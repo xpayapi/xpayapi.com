@@ -1,0 +1,55 @@
+{
+    "name": "xpayapi-com/xpayapi",
+    "description": "xpayapi.com PHP SCI/API Wrapper (Official)",
+    "homepage": "https://github.com/xpayapi/xpayapi.com/tree/v1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+      "xpayapi",
+      "xpayapi.com",
+      "cryptocurrency",
+      "crypto",
+      "payment gateway",
+      "payment method",
+      "payment processor",
+      "merchant",
+      "tether",
+      "trc20",
+      "bep20",
+      "erc20",
+      "tron",
+      "bitpay",
+      "paypal",
+      "bitcoin",
+      "litecoin",
+      "ethereum",
+      "dogecoin",
+      "binance",
+      "binancecoin",
+      "coinpayments",
+      "block.io",
+      "php",
+      "api",
+      "btc",
+      "currency"
+    ],
+    "authors": [
+      {
+        "name": "xpayapi com",
+        "email": "dev@xpayapi.com",
+        "homepage": "https://xpayapi.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": ">=7.1.0",
+      "ext-mbstring": "*",
+      "ext-json": "*",
+      "ext-curl": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "xpayapi\\": "src/"
+      }
+    }
+  }

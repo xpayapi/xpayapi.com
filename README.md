@@ -55,71 +55,10 @@ Follow the link [http://localhost/examples/custom_payment_page.php](http://local
 $ make stop
 ```
 
-## Usage
-
-<?php
-    $examples = [
-        [
-                "file" => "custom_payment_page.php",
-                "title" => "Custom payment page",
-        ],
-        [
-            "file" => "create_address.php",
-            "title" => "Get a payment address and a QR-code for him",
-        ],
-        [
-            "file" => "processing_ipn_for_transaction.php",
-            "title" => "Check an IPN of a transaction",
-        ],
-        [
-            "file" => "create_payment_link.php",
-            "title" => "Get a payment link(create an order)",
-        ],
-        [
-            "file" => "processing_ipn_for_order.php",
-            "title" => "Check an IPN of an order",
-        ],
-        [
-            "file" => "send_money.php",
-            "title" => "Send a money",
-        ],
-        [
-            "file" => "get_merchant_balance.php",
-            "title" => "Get a merchant balance",
-        ],
-        [
-            "file" => "get_history.php",
-            "title" => "Get a merchant history",
-        ],
-        [
-            "file" => "get_merchant_info.php",
-            "title" => "Get a merchant info",
-        ],
-        [
-            "file" => "get_currency_rates.php",
-            "title" => "Get cryptocurrency pair rates",
-        ],
-        [
-            "file" => "get_available_currencies.php",
-            "title" => "Get available currencies",
-        ],
-    ];
-
-?>
-
-<?php foreach ($examples as $item) { ?>
-### <?php echo $item["title"]; ?>
-
-```php
-<?php echo file_get_contents(sprintf("%s%s%s", __DIR__, "/../examples/", $item["file"])); ?>
-
-```
+## Usage, see examples folder
 
 **Example:**
-<?php $link = sprintf("%s%s", "http://localhost/examples/", $item["file"]); ?>
-Follow the link [<?php echo $link; ?>](<?php echo $link; ?>)
-
-<?php } ?>
+Follow the link [http://localhost/examples/](http://localhost/examples/)
 
 ## Contributing
 If during your work with this wrapper you encounter a bug or have a suggestion to help improve it for others, you are welcome to open a Github issue on this repository and it will be reviewed by one of our development team members. The xPayapi.com bug bounty does not cover this wrapper.
