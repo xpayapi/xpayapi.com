@@ -35,6 +35,8 @@
         "currency" => "USDT",
         "order_id" => "New order id "  . microtime(true),
         "comment" => "Testing comment",
+        "address_callback" => "",
+        "custom" => "",
     ];
 
     $xPayApi = new \xPayApi\xPayApiSCI(
