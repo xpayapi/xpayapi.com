@@ -48,7 +48,9 @@
         * BinanceCoin: [ BNB ],
         * TRON_TRC20: [ USDT ],
         * BinanceSmartChain_BEP20: [ USDT, BUSD, USDC, ADA, EOS, BTC, ETH, DOGE, SHIB ],
-        * Ethereum_ERC20: [ USDT, BUSD, USDC, SHIB ],
+        * Ethereum_ERC20: [ USDT, BUSD, USDC, SHIB ],,
+        * Solana: [ SOL ],
+        * Ton: [ TON ]
         * Berty: [ USD, RUB ]
         */
 

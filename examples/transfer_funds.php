@@ -30,6 +30,8 @@
      * TRON_TRC20: [ USDT ],
      * BinanceSmartChain_BEP20: [ USDT, BUSD, USDC, ADA, EOS, BTC, ETH, DOGE, SHIB ],
      * Ethereum_ERC20: [ USDT, BUSD, USDC, SHIB ],
+     * Solana: [ SOL ],
+     * Ton: [ TON ],
      */
     $xPayApi_params = [
         "merchant_id" => $xpayapi_config["merchant_id"],

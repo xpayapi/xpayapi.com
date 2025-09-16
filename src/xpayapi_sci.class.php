@@ -144,7 +144,7 @@ class xPayApiSCI
         ],
         "solana" => [
             "type" => "crypto",
-            "system_id" => 38,
+            "system_id" => 43,
             "system" => "Solana",
             "tag" => true,
             "tag_title" => "tag",
@@ -168,7 +168,7 @@ class xPayApiSCI
         ],
         "ton" => [
             "type" => "crypto",
-            "system_id" => 33,
+            "system_id" => 44,
             "system" => "TON",
             "tag" => true,
             "tag_title" => "comment",
